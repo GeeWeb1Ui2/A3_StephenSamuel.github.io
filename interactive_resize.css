@@ -1,0 +1,58 @@
+html {
+margin: 0;
+padding: 0;
+
+
+}
+
+* {
+  box-sizing: border-box;
+
+
+}
+
+
+
+
+
+
+
+
+/* Styles for screens larger than 600px */
+@media only screen and (min-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Styles for screens smaller than 600px */
+  @media only screen and (max-width: 599px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+  .container {
+    width: 90%;
+    padding: 1em;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 1em 0;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+  
